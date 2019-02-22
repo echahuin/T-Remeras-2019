@@ -35,11 +35,10 @@
 
 						cont.innerHTML += `<div class="fh5co-project masonry-brick">
 					<a href="single.html">
-						<img src="${url[1]}" alt="Free HTML5 by FreeHTML5.co">
+						<img src="${url[1]}" alt="...">
 						<h2>${valor.title.$t}</h2>
 						<p>${valor.id.$t}</p><br>
-						<button type="button" class="btn btn-light btn-lg btn-block"><a href="https://api.whatsapp.com/send?phone=5491164179643&text=Hola%20quisiera%20saber%mas%sobre%las%remeras">Contactar</button>
-																						
+						<button type="button" class="btn btn-light btn-lg btn-block"><a href="https://api.whatsapp.com/send?phone=5491164179643&text=Hola%20quisiera%20saber%20mas">Contactar</button>																
 						<h5>${valor.published.$t}</h5>
 					</a>
 				</div>`

@@ -22,7 +22,7 @@
 	var cont = document.getElementById('fh5co-projects-feed');
 			
 			function mostrar(){
-				fetch('https://cors-anywhere.herokuapp.com/https://chahuincc-ventas.blogspot.com//feeds/posts/default?alt=json')
+				fetch('https://cors-anywhere.herokuapp.com/https://ventassalada.blogspot.com//feeds/posts/default?alt=json')
 				.then(datos => datos.json())
 				.then(data => {
 					console.log(data)
